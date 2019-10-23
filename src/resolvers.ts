@@ -18,7 +18,7 @@ export const resolvers = {
       const films = await ghibli.listFilms(limit);
       return films.map(mapFilmsToGql)
     },
-    people(_root: any, { limit }: PaginationParams, { currentUser }: { currentUser?: any }): Promise<PersonGql[]> {
+    people(_root: any, { limit }: PaginationParams): Promise<PersonGql[]> {
       return ghibli.listPeople(limit)
     }
   },
