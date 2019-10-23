@@ -6,6 +6,8 @@ Welcome to the code for this 2019 Codemtion Milan workshop held by [Nicola Racco
 
 This repo contains the code used during the live coding sections of the workshop, each section contained in a separate branch.
 
+Slide link: http://svel.to/1ctw
+
 ## Branches
 
 - [apollo-introduction](https://github.com/mikamai/codemotion-ws-breaking-the-monolith/tree/apollo-introduction) - simple TypeScript project that showcases how to use [Apollo Server](https://www.apollographql.com/docs/apollo-server/) to build a GraphQL API
