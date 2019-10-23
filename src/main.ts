@@ -10,7 +10,6 @@ const server = new ApolloServer({
 });
 
 async function main() {
-  await new Swapi().getPerson(1);
   const app = fastify({ logger: true });
 
   app.register(server.createHandler());
